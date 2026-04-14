@@ -14,6 +14,6 @@ public class Game_Manager_M : MonoBehaviour
         
     }
 
-    //スライダーと玉が入る穴を生成する関数
+    //玉が入る穴を生成する関数
 
 }

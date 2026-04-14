@@ -440,7 +440,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/motofuji/Script/Rotation_Disk_M.cs"
+"Assets/motofuji/Script/Click_Manager_M.cs"
+"Assets/motofuji/Script/Game_Manager_M.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -68,7 +68,7 @@ public class Click_Manager_M : MonoBehaviour
             {
                 slide_child[child_index] = gameObject.GetComponent<RectTransform>();
                 slide_child[child_index] = child;
-                start_pos[child_index] = child.position;
+                start_pos[child_index] = child.anchoredPosition;
                 child_index++;
             }
         }
@@ -83,8 +83,6 @@ public class Click_Manager_M : MonoBehaviour
         mouse_pos = (Vector2)Input.mousePosition - object_pos;
         Vector2 F_move_vec = mouse_pos - click_pos;
 
-        Debug.Log("F_move_vec = " + F_move_vec);
-
         //記憶した子オブジェクト達の移動処理
         for (int i = 0; i < child_index; i++)
         {
@@ -97,9 +95,8 @@ public class Click_Manager_M : MonoBehaviour
     public void RevertSlide()
     {
         RectTransform F_parent_rt = slide_parent.GetComponent<RectTransform>();
-        float[] F_distance = new float[child_index];
 
+        Debug.Log("スライダーを離した");
         
-
     }
 }
